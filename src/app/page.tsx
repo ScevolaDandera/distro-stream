@@ -26,7 +26,7 @@ export default function Home() {
                 </p>
 
                 <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '1rem' }}>
-                    <button style={{
+                    <a href="/artist" style={{
                         background: 'var(--primary)',
                         color: '#000',
                         border: 'none',
@@ -34,11 +34,12 @@ export default function Home() {
                         borderRadius: '2rem',
                         fontSize: '1rem',
                         fontWeight: 'bold',
-                        cursor: 'pointer'
+                        cursor: 'pointer',
+                        display: 'inline-block'
                     }}>
-                        Download
-                    </button>
-                    <button style={{
+                        Distribute Music
+                    </a>
+                    <a href="/browse" style={{
                         background: 'transparent',
                         color: 'var(--foreground)',
                         border: '1px solid var(--glass-border)',
@@ -46,10 +47,11 @@ export default function Home() {
                         borderRadius: '2rem',
                         fontSize: '1rem',
                         fontWeight: 'bold',
-                        cursor: 'pointer'
+                        cursor: 'pointer',
+                        display: 'inline-block'
                     }}>
-                        Learn More
-                    </button>
+                        Start Listening
+                    </a>
                 </div>
             </div>
         </main>
