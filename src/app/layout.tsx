@@ -1,5 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import { PlayerProvider } from '@/context/PlayerContext';
+import { Player } from '@/components/player/Player';
 
 export const metadata: Metadata = {
     title: 'DistroStream - distribute & listen',
